@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <h3> Calculator using HTML, CSS and JavaScript</h3>
+        <script type="'text/javascript" src="fun.js"></script>
+    </head>
+    <body>
+        <div class="calci">
+            <form>
+                <table>
+                <tr>
+                    <td> <label for="n1">Enter Number1:</label></td>
+                    <td><input type='number' id='n1' placeholder="Enter Number" value="num1"></td>
+                </tr>
+                <tr>
+                    <td> <label for="n2">Enter Number2:</label></td>
+                    <td><input type='number' id='n2' placeholder="Enter Number" value="num2"></td>
+                </tr>
+                <tr>
+                    <td><input type='button' value='ADD' onclick="add(n1,n2)"></td>
+                    <td><input type='submit' value='SUB' onclick="sub()"></td>
+                </tr>
+                <tr>
+                    <td><input type='submit' value='MUL' onclick="mul()"></td>
+                    <td><input type='submit' value='DIV' onclick="div()"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="Result" id="res" value="result"></td>
+                </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
