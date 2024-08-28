@@ -1,18 +1,27 @@
-function add(num1,num2){
-    var n1=document.getElementsById('n1');
-    var num1=n1.value;
-    var n2=document.getElementsById('n2');
-    var num2=n2.value;
-    result=num1+num2;
-    alert(result);
+function add() {
+    var num1 = parseFloat(document.getElementById('n1').value);
+    var num2 = parseFloat(document.getElementById('n2').value);
+    var result = num1 + num2;
+    document.getElementById('res').value = result;
 }
-function sub(num1,num2){
-    result=num1-num2;
+
+function sub() {
+    var num1 = parseFloat(document.getElementById('n1').value);
+    var num2 = parseFloat(document.getElementById('n2').value);
+    var result = num1 - num2;
+    document.getElementById('res').value = result;
 }
-function mul(num1,num2){
-    result=num1*num2;
+
+function mul() {
+    var num1 = parseFloat(document.getElementById('n1').value);
+    var num2 = parseFloat(document.getElementById('n2').value);
+    var result = num1 * num2;
+    document.getElementById('res').value = result;
 }
-function div(num1,num2){
-    result=num1/num2;
+function div() {
+    var num1 = parseFloat(document.getElementById('n1').value);
+    var num2 = parseFloat(document.getElementById('n2').value);
+    var result = num1 / num2;
+    document.getElementById('res').value = result;
 }
-var resu=document.getElementsById('res').value=result;
+
